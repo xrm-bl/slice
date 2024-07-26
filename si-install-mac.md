@@ -1,7 +1,7 @@
 ## siのMacOSへのインストール方法(2024)
 
-- IntelCPUで検証済み．Apple silliconは未検証.今後検証予定
-- Macなので,NVIDIA GPUcudaが関係するプログラムはインストールしない.
+- IntelCPUで検証済み．Apple silliconは未検証．今後検証予定．
+- Macなので，NVIDIA GPUcudaが関係するプログラムはインストールしない．
 
 ### 事前準備
 - [sliceインストール時の事前準備](https://github.com/xrm-bl/slice/blob/main/slice-install-mac.md#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%990)に沿って,brew, gcc@13, libtiffをインストールしておく.
