@@ -21,7 +21,8 @@ https://zenn.dev/minguu42/articles/20220722-how-to-use-gcc-on-mac
 - 以降はPDFのマニュアル通り．
 
 - http://www-bl20.spring8.or.jp/slice/index.htmlからslice100407.tar.gzをダウンロードする
-コマンドでは`wget http://www-bl20.spring8.or.jp/slice/index.htmlslice100407.tar.gz`
+  - コマンドでは`wget http://www-bl20.spring8.or.jp/slice/index.htmlslice100407.tar.gz`
+  - wgetコマンドがインストールされていない場合は`brew install wget` 
 
 - ダウンロードしたファイルを展開する
 `tar xvzf slice100407.tar.gz`
