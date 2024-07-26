@@ -25,7 +25,7 @@ https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
 - 以降はPDFのマニュアル通り．
 
 - http://www-bl20.spring8.or.jp/slice/index.htmlからslice100407.tar.gzをダウンロードする
-  - コマンドでは`wget http://www-bl20.spring8.or.jp/slice/index.htmlslice100407.tar.gz`
+  - コマンドでは`wget http://www-bl20.spring8.or.jp/slice/file/slice100407.tar.gz`
   - wgetコマンドがインストールされていない場合は`brew install wget` 
 
 - ダウンロードしたファイルを展開する
@@ -45,3 +45,5 @@ https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
 - ターミナルを閉じて，ターミナル再起動
 
 - 動作確認.`slicePVR`と入力して,`usage : slicePVR orgDir nameFile {newDir}`と表示されたらOK
+
+- 不要ファイルの削除. `rm -r slice` `rm slice100407.tar.gz`
