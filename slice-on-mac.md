@@ -15,8 +15,8 @@ https://zenn.dev/minguu42/articles/20220722-how-to-use-gcc-on-mac
 
 - libbtiffをインストールする．
 `brew install libtiff`
-筆者が試した時点でのバージョンは4.6.0
-https://formulae.brew.sh/formula/libtiff
+  - 筆者が試した時点でのバージョンは4.6.0
+  - https://formulae.brew.sh/formula/libtiff
 
 - 以降はPDFのマニュアル通り．
 
