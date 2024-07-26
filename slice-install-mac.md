@@ -33,7 +33,7 @@ https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
 - sliceディレクトリに移動する
 `cd slice`
 
-- libtiffはbrewでインストール済みなので,ここではインストールしない．
+- libtiffはbrewでインストール済みなので，ここではインストールしない．
 
 - `make all`
 
