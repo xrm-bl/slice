@@ -1,6 +1,6 @@
 ## siのMacOSへのインストール方法(2024)
 
-- IntelCPUで検証した．Apple silliconは未検証．今後検証予定．
+- IntelCPUで検証した．Apple siliconは未検証．今後検証予定．
 - Macなので，NVIDIA GPUcudaが関係するプログラムはインストールしない．
 
 ### 事前準備
