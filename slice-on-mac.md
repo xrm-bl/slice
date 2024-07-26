@@ -2,7 +2,7 @@
 
 - IntelCPUで検証済み．Apple silliconは未検証.今後検証予定
 
-- brewをインストールする．M1以降のMacの場合は，Intel版 (x64版)のターミナルからインストールする．
+- homebrewをインストールする．M1以降のMacの場合は，Intel版 (x64版)のターミナルからインストールする．
 https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
 
 - gcc ver.13をインストールする．
