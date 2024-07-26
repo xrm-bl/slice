@@ -1,5 +1,7 @@
 ## SliceのMacOSへのインストール方法(2024)
 
+### 事前準備
+
 - IntelCPUで検証済み．Apple silliconは未検証.今後検証予定
 
 - homebrewをインストールする．M1以降のMacの場合は，Intel版 (x64版)のターミナルからインストールする．
@@ -19,6 +21,7 @@ https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
   - 筆者が試した時点でのバージョンは4.6.0
   - https://formulae.brew.sh/formula/libtiff
 
+### インストール
 - 以降はPDFのマニュアル通り．
 
 - http://www-bl20.spring8.or.jp/slice/index.htmlからslice100407.tar.gzをダウンロードする
