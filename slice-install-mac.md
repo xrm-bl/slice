@@ -1,6 +1,6 @@
 ## SliceのMacOSへのインストール方法(2024)
 
-- IntelCPUで検証した．Apple silliconは未検証．今後検証予定．
+- IntelCPUで検証した．Apple siliconは未検証．今後検証予定．
 
 ### 事前準備
 - homebrewをインストールする．M1以降のMacの場合は，Intel版 (x64版)のターミナルからインストールする．
