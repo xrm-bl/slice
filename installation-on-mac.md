@@ -10,8 +10,8 @@ https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
   - `@13`をつけないと，最新版ver14がインストールされてしまう．最新版では，コンパイル時にエラーが出てしまう．
 
 - gcc ver.13へのパスを通す．
-これをやらないと，プリインストールされているClangのgccが実行されてしまい，やはりコンパイル時にエラーが出てしまう．
-https://zenn.dev/minguu42/articles/20220722-how-to-use-gcc-on-mac
+これをやらないと，プリインストールされているClangのgccが実行されてしまい，やはりコンパイル時にエラーが出てしまう．   
+具体的な手順はリンク先：https://zenn.dev/minguu42/articles/20220722-how-to-use-gcc-on-mac
 
 - libbtiffをインストールする．
 `brew install libtiff`
