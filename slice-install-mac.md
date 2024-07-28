@@ -60,6 +60,10 @@ LIB	=-L/opt/homebrew/lib
 
 ### Intel CPUでの方法   
 #### 事前準備
+- ターミナルを起動する．
+  
+- `uname -m`で`x86_64`と表示されることを確認する．
+  
 - homebrewをインストールする．M1以降のMacの場合は，Intel版 (x64版)のターミナルからインストールする．
 https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
 
