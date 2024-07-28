@@ -19,7 +19,7 @@ https://brew.sh/ja/
   - これをやらないと，プリインストールされているClangのgccが実行されてしまい，やはりコンパイル時にエラーが出てしまう．   
   - 参考：https://zenn.dev/minguu42/articles/20220722-how-to-use-gcc-on-mac
 
-- libbtiffをインストールする．
+- libtiffをインストールする．
 `brew install libtiff`
   - 筆者が試した時点でのバージョンは4.6.0
   - https://formulae.brew.sh/formula/libtiff
@@ -76,7 +76,7 @@ https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
   - これをやらないと，プリインストールされているClangのgccが実行されてしまい，やはりコンパイル時にエラーが出てしまう．   
   - 参考：https://zenn.dev/minguu42/articles/20220722-how-to-use-gcc-on-mac
 
-- libbtiffをインストールする．
+- libtiffをインストールする．
 `brew install libtiff`
   - 筆者が試した時点でのバージョンは4.6.0
   - https://formulae.brew.sh/formula/libtiff
