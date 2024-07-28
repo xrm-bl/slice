@@ -1,7 +1,7 @@
 ## SliceのMacOSへのインストール方法(2024)
 
-- [Apple siliconでの方法](#Apple-siliconでの方法)
-- [Intel CPUでの方法](#Intel-CPUでの方法）
+- [Apple siliconでの方法](#Apple-siliconでの方法)   
+- [Intel CPUでの方法](#Intel-CPUでの方法)     
 
 ### Apple siliconでの方法
 #### 事前準備
@@ -58,9 +58,7 @@ LIB	=-L/opt/homebrew/lib
 
 - 不要ファイルの削除．`rm -r slice` `rm slice100407.tar.gz`
 
-
-
-### Intel CPUでの方法
+### Intel CPUでの方法   
 #### 事前準備
 - homebrewをインストールする．M1以降のMacの場合は，Intel版 (x64版)のターミナルからインストールする．
 https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
