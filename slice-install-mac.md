@@ -23,7 +23,7 @@ https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
 ### インストール
 - 以降はPDFのマニュアル通り．
 
-- http://www-bl20.spring8.or.jp/slice/index.htmlからslice100407.tar.gzをダウンロードする．
+- http://www-bl20.spring8.or.jp/slice/index.html からslice100407.tar.gzをダウンロードする．
   - コマンドでは`wget http://www-bl20.spring8.or.jp/slice/file/slice100407.tar.gz`
   - wgetコマンドがインストールされていない場合は`brew install wget` 
 
