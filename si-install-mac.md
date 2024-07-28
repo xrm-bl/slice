@@ -4,7 +4,7 @@
 - Macなので，NVIDIA GPUcudaが関係するプログラムはインストールしない．
 
 ### 事前準備
-- [sliceインストール時の事前準備](https://github.com/xrm-bl/slice/blob/main/slice-install-mac.md#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%990)に沿って，brew, gcc@13, libtiffをインストールしておく．
+- [sliceインストール](https://github.com/xrm-bl/slice/blob/main/slice-install-mac.md)の事前準備に沿って，brew, gcc@13, libtiffをインストールしておく．
 
 ### インストール
 - [シェルスクリプト](https://github.com/xrm-bl/slice/blob/main/si-install.sh)（上杉氏作成のコマンドリストを元に作成した）をMacにダウンロードする（スクリプト右上のDownload raw fileボタン)．
