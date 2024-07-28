@@ -3,7 +3,7 @@
 - [Apple siliconでの方法](#Apple-siliconでの方法)   
 - [Intel CPUでの方法](#Intel-CPUでの方法)     
 
-### Apple siliconでの方法
+### Apple silicon(M1, M2, ...)での方法
 #### 事前準備
 - ターミナルを起動する．
 - `uname -m`で`arm64`と表示されることを確認する．
