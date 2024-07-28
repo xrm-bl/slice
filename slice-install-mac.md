@@ -35,7 +35,7 @@ https://brew.sh/ja/
 - sliceディレクトリに移動する
 `cd slice`
 
-- Makefileを書き換える．`nano slice/src/Makefile`として，最小の２行目を以下のように書き換える．
+- Makefileを書き換える．`nano slice/src/Makefile`として，最初の２行を以下のように書き換える．
 ```
 INCLUDE	=-I/opt/homebrew/include
 LIB	=-L/opt/homebrew/lib
