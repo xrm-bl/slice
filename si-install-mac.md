@@ -22,5 +22,10 @@
 - 不要ファイルの削除．`rm -r ~/bin` `rm -r ~/program`
 
 ### インストールでエラーが出た場合
-- 筆者の環境では，`hvd.taz`内の`s3d_mpo2`, `s3d_mj2avi`でlibjpegエラーが出た．
-- `Makefile.64`内で`s3d_mpo2`と`s3d_mj2avi`に関する部分を削除してから`make -f Makefile.64 all`して回避した．
+- 筆者の環境では，`hvd.taz`内の`s3d_mpo2`, `s3d_mj2avi`でlibjpegエラーが出た．この場合は`Makefile.64`内の17-20行目を以下のように変更する．
+```
+#L_J	=-ljpeg
+#L_J	=-static -ljpeg
+L_J	=-I/usr/local/include -L/usr/local/lib -ljpeg
+#L_J	=-I${HOME}/local/include -L${HOME}/local/lib -ljpeg
+```
