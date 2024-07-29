@@ -22,7 +22,19 @@
 - 不要ファイルの削除．`rm -r ~/bin` `rm -r ~/program`
 
 ### インストールでエラーが出た場合
-- `hvd.taz`内の`s3d_mpo2`, `s3d_mj2avi`でlibjpegエラーが出る場合は，`Makefile.64`内の17-20行目を以下のように変更する．
+- `hvd.taz`内の`s3d_mpo2`, `s3d_mj2avi`でlibjpegエラーが出る場合は，まずlibjpegをインストールする．`brew install libjpeg`
+
+- 次に，`hvd/src/Makefile.64`内の17-20行目を以下のように変更する．変更内容はApple siliconかIntelかで変わる．
+
+- Apple siliconの場合は
+```
+#L_J	=-ljpeg
+#L_J	=-static -ljpeg
+L_J	=-I/opt/homebrew/include -L/opt/homebrew/lib -ljpeg
+#L_J	=-I${HOME}/local/include -L${HOME}/local/lib -ljpeg
+```
+
+- Intelの場合は
 ```
 #L_J	=-ljpeg
 #L_J	=-static -ljpeg
