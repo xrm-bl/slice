@@ -35,7 +35,7 @@ https://brew.sh/ja/
 - sliceディレクトリに移動する
 `cd slice`
 
-- Makefileを書き換える．`nano slice/src/Makefile`として，最初の２行を以下のように書き換える．この作業を行わないと，libtiffを使ったコンパイルでエラーが出る．
+- Makefileを書き換える．エディタ（たとえば`nano slice/src/Makefile`）で，最初の２行を以下のように書き換える．この作業を行わないと，libtiffを使ったコンパイルでエラーが出る．
 
 ```
 INCLUDE	=-I/opt/homebrew/include
