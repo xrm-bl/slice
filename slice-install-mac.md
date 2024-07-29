@@ -15,9 +15,10 @@ https://brew.sh/ja/
   - `@13`をつけないと，最新版ver14がインストールされてしまう．最新版では，コンパイル時にエラーが出てしまう．
 
 - gcc ver.13へのパスを通す．`ln -s /opt/homebrew/bin/gcc-13 /usr/local/bin/gcc`　`ln -s /opt/homebrew/bin/g++-13 /usr/local/bin/g++`   
-ターミナルを再起動する．
   - これをやらないと，プリインストールされているClangのgccが実行されてしまい，やはりコンパイル時にエラーが出てしまう．   
   - 参考：https://zenn.dev/minguu42/articles/20220722-how-to-use-gcc-on-mac
+
+- ターミナルを再起動する．
 
 - libtiffをインストールする．
 `brew install libtiff`
@@ -72,9 +73,10 @@ https://qiita.com/funatsufumiya/items/cec08f1ba3387edc2eed
   - `@13`をつけないと，最新版ver14がインストールされてしまう．最新版では，コンパイル時にエラーが出てしまう．
 
 - gcc ver.13へのパスを通す．`ln -s /usr/local/bin/gcc-13 /usr/local/bin/gcc`　`ln -s /usr/local/bin/g++-13 /usr/local/bin/g++`   
-ターミナルを再起動する．
   - これをやらないと，プリインストールされているClangのgccが実行されてしまい，やはりコンパイル時にエラーが出てしまう．   
   - 参考：https://zenn.dev/minguu42/articles/20220722-how-to-use-gcc-on-mac
+
+- ターミナルを再起動する．
 
 - libtiffをインストールする．
 `brew install libtiff`
