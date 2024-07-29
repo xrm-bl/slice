@@ -1,4 +1,4 @@
-## [sliceのインストール方法（2024年版）](https://github.com/xrm-bl/slice/blob/main/slice-install-mac.md)
+### [sliceのインストール方法（2024年版）](https://github.com/xrm-bl/slice/blob/main/slice-install-mac.md)
 - Apple silicon, IntelともにインストールOK
 
 ### [siのインストール方法（2024年版）](https://github.com/xrm-bl/slice/blob/main/si-install-mac.md)
