@@ -9,4 +9,4 @@
 - 加筆予定
 
 ### 動作検証に用いたマシン
-- Macbook Air(Apple M3チップ(プロセッサ：8コアCPU、10コアGPU、16コアNeural Engine搭載),24GBユニファイドメモリ）
+- Macbook Air(Apple M3チップ(8コアCPU、10コアGPU、16コアNeural Engine搭載),24GBユニファイドメモリ）
