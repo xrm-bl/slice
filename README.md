@@ -1,3 +1,7 @@
+### 2024年現在のsliceインストール・動作挙動についてのページ
+
+### ソースコード，バイナリ，オリジナルのマニュアルは[http://www-bl20.spring8.or.jp/slice/index.html](http://www-bl20.spring8.or.jp/slice/index.html)へ
+
 ### sliceのインストール方法（2024年版）は[こちら](https://github.com/xrm-bl/slice/blob/main/slice-install-mac.md)
 - Apple silicon, IntelともにインストールOK
 
