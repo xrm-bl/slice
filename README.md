@@ -8,7 +8,7 @@
 ### ベンチマークは[こちら](https://github.com/xrm-bl/slice/blob/main/mac-benchmark/report_20240731.md)
 - 1~2Kのデータの処理は数秒〜数分以内で終わる．
 - Apple siliconでも，リスライシング（3K x 400枚以上）やボリュームレンダリング（3K, 6K）の処理には時間がかかる．
-- Rosetta2(Intel)で実行するよりも，Apple siliconで実行する方が速い．ただし，大きいデータほどその差は小さいので，ファイルの読み書き速度の律速も大きいと思われる．
+- Rosetta2(Intel)で実行するよりも，Apple siliconで実行する方が，最大で２倍程度速い．ただし，大きいデータほどその差は小さいので，ファイルの読み書き速度の律速も大きいと思われる．
 
 ### 動作検証に用いたマシン
 - Macbook Air(Apple M3チップ(8コアCPU，10コアGPU，16コアNeural Engine搭載),24GBユニファイドメモリ）
