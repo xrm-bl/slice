@@ -60,6 +60,7 @@ LIB	=-L/opt/homebrew/lib
 - 不要ファイルの削除．`rm -r slice` `rm slice100407.tar.gz`
 
 ### Intel CPUでの方法   
+- Apple siliconではなくIntel CPU搭載のMac，または，Apple silicon搭載だがIntelアーキテクチャで実行したい人向けの手順．
 #### 事前準備
 - ターミナルを起動する．
   
